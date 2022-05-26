@@ -417,7 +417,6 @@
 			return 0
 		..()
 
-
 /datum/limb/mouth/small/possum
 	dam_low = 0
 	dam_high = 0
@@ -1477,6 +1476,15 @@ var/list/ghostcritter_blocked = ghostcritter_blocked_objects()
 /datum/limb/small_critter/possum
 	dam_low = 0
 	dam_high = 0
+
+/datum/limb/small_critter/smallbite // Maybe we want something that can bite and bleed good but is not great for holding things
+	dmg_type = DAMAGE_CUT
+	max_wclass = 1
+	dam_low = 1
+	dam_high = 3
+	stam_damage_mult = 0.5
+	sound_attack = "sound/impact_sounds/Flesh_Stab_1.ogg"
+	actions = list("gnaws", "crunches", "bites", "tears into")
 
 /datum/limb/small_critter/med/dash
 	New(var/obj/item/parts/holder)

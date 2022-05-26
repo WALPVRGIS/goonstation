@@ -1632,4 +1632,12 @@ var/global/icon/scanline_icon = icon('icons/effects/scanning.dmi', "scanline")
 			REMOVE_ATOM_PROPERTY(M, PROP_MOB_CANTMOVE, "hatstomp")
 			M.update_canmove()
 
-
+/proc/animate_fastshake(atom/A) // a lil grumpy shake
+	if (!istype(A))
+		return
+	animate(A, pixel_y = (A.pixel_y + 6), time = 0.1 SECONDS, dir = NORTH, flags=ANIMATION_PARALLEL)
+	animate(pixel_y = (A.pixel_y - 6), time = 0.1 SECONDS, dir = EAST)
+	animate(pixel_y = (A.pixel_y + 6), time = 0.1 SECONDS, dir = WEST)
+	animate(pixel_y = (A.pixel_y - 6), time = 0.1 SECONDS, dir = NORTH)
+	animate(pixel_y = (A.pixel_y + 6), time = 0.1 SECONDS, dir = WEST)
+	animate(pixel_y = (A.pixel_y - 6), time = 0.1 SECONDS, dir = SOUTH)

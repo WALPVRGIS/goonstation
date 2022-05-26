@@ -40,3 +40,37 @@
 					M.reagents.add_reagent("bloodc", dmg, null, T0C)
 				boutput(M, "<span class='alert'>You are sprayed with sizzling hot blood!</span>")
 		ow.gib()
+
+// A version that doesn't gib you or add reagents, for some basic attack variety
+/datum/targetable/critter/boilblood
+	name = "Blood Boil"
+	desc = "Spray boiling blood on nearby targets."
+	cooldown = 40 SECONDS
+	start_on_cooldown = 0
+	icon_state = "blood_boil"
+
+	//playsound(src, "sound/effects/screech_tone.ogg", 40, 1, 0.1, 0.8)
+
+	cast(atom/target)
+		if (..())
+			return 1
+		var/mob/ow = holder.owner
+
+		for (var/turf/splat in view(2,ow.loc))
+			if (prob(50))
+				var/obj/decal/cleanable/blood/B = make_cleanable(/obj/decal/cleanable/blood,splat)
+				B.sample_reagent = "blood"
+
+		ow.visible_message(text("<span class='alert'><B>[holder.owner] boils and splatters blood everywhere!</B></span>"))
+
+		for (var/mob/M in view(1,ow.loc))
+			if(iscarbon(M))
+				if (ishuman(M))
+					var/mob/living/carbon/human/H = M
+					if(istype(H.wear_suit, /obj/item/clothing/suit/bio_suit) && istype(H.head, /obj/item/clothing/head/bio_hood))
+						boutput(M, "<span class='notice'>You are sprayed with blood, but your biosuit protects you!</span>")
+						continue
+				M.emote("scream")
+				M.TakeDamage("chest", 0, rand(5,10), 0, DAMAGE_BURN)
+				playsound(M, "sound/impact_sounds/Slimy_Splat_1.ogg", 30, 1, -1)
+				boutput(M, "<span class='alert'>You are sprayed with sizzling hot blood!</span>")

@@ -3409,3 +3409,71 @@ var/list/mob_bird_species = list("smallowl" = /mob/living/critter/small_animal/b
 			src.ai = null
 			reduce_lifeprocess_on_death()
 			..()
+
+/* ============================================= */
+/* ----------------- Bloodling ----------------- */
+/* ============================================= */
+
+/mob/living/critter/small_animal/bloodling
+	name = "bloodling"
+	real_name = "bloodling"
+	desc = "A force of pure sorrow and evil."
+	death_text = "%src% falls apart into bloody chunks!"
+	icon_state = "bling"
+	speechverb_say = "wails"
+	speechverb_gasp = "burbles"
+	speechverb_exclaim = "hisses"
+	density = 0
+	fits_under_table = 0
+	isFlying = 1
+	flags = DOORPASS
+	hand_count = 1
+	health_brute = 25
+	health_burn = 25
+	base_move_delay = 3
+	base_walk_delay = 4
+	pet_text = list("cautiously pets", "pokes", "gently baps")
+
+	New()
+		..()
+		abilityHolder = new /datum/abilityHolder/critter(src)
+		abilityHolder.addAbility(/datum/targetable/critter/boilblood)
+		abilityHolder.updateButtons()
+		src.UpdateParticles(new/particles/bloody_aura, "bloodaura", KEEP_APART | RESET_TRANSFORM)
+
+	specific_emotes(var/act, var/param = null, var/voluntary = 0)
+		switch (act)
+			if ("scream")
+				if (src.emote_check(voluntary, 50))
+					playsound(src, "sound/effects/ghost2.ogg", 50, 1, 1, 0.9, channel=VOLUME_CHANNEL_EMOTE)
+					return "<b><span class='alert'>[src] wails hauntingly!</span></b>"
+			if ("dance")
+				if (src.emote_check(voluntary, 50))
+					playsound(src, "sound/effects/ghost2.ogg", 40, 1, 0.1, 1.5, channel=VOLUME_CHANNEL_EMOTE)
+					animate_fastshake(src)
+				if(prob(40))
+					make_cleanable(/obj/decal/cleanable/blood,loc)
+					playsound(src.loc, "sound/impact_sounds/Slimy_Splat_1.ogg", 50, 1, -1, channel=VOLUME_CHANNEL_EMOTE)
+				return "<span class='emote'><b>[src]</b> wiggles violently!</span>"
+		return null
+
+	setup_hands()
+		..()
+		var/datum/handHolder/HH = hands[1]
+		HH.limb = new /datum/limb/small_critter/smallbite
+		HH.icon = 'icons/mob/critter_ui.dmi'
+		HH.icon_state = "mouth"
+		HH.name = "weird spectral mouth"
+		HH.limb_name = "mouth"
+
+	death(var/gibbed)
+		src.ClearSpecificParticles("bloodaura")
+		..(gibbed, 0)
+		if (!gibbed)
+			playsound(src.loc, "sound/impact_sounds/Slimy_Splat_1.ogg", 100, 1)
+			make_cleanable(/obj/decal/cleanable/blood,src.loc)
+			ghostize()
+			qdel(src)
+		else
+			playsound(src.loc, "sound/impact_sounds/Slimy_Splat_1.ogg", 100, 1)
+			make_cleanable(/obj/decal/cleanable/blood,src.loc)

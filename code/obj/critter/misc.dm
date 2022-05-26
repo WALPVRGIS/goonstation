@@ -879,14 +879,17 @@
 	atkcarbon = 1
 	atksilicon = 0
 	atcritter = 0
-	firevuln = 0
-	brutevuln = 0
+	firevuln = 1
+	brutevuln = 0.2
 	seekrange = 5
-	invisibility = INVIS_INFRA
+	//invisibility = INVIS_INFRA
 	flying = 1
 	is_pet = FALSE
-
 	generic = 0
+
+	New()
+		UpdateParticles(new/particles/bloody_aura, "bloodaura")
+		..()
 
 	seek_target()
 		src.anchored = 0
@@ -906,7 +909,6 @@
 			else
 				continue
 
-
 	ChaseAttack(mob/M)
 		src.attacking = 1
 		if (narrator_mode)
@@ -924,7 +926,6 @@
 			src.attacking = 0
 			return
 
-
 	CritterAttack(mob/M)
 		playsound(src.loc, "sound/effects/ghost2.ogg", 50, 1, -1)
 		attacking = 1
@@ -937,7 +938,6 @@
 
 		SPAWN(0.5 SECONDS)
 			attacking = 0
-
 
 	attackby(obj/item/W as obj, mob/living/user as mob)
 		if (!src.alive)
@@ -959,6 +959,13 @@
 			playsound(src.loc, "sound/impact_sounds/Slimy_Splat_1.ogg", 50, 1, -1)
 			make_cleanable( /obj/decal/cleanable/blood,loc)
 		return ..()
+
+	CritterDeath()
+		if (!src.alive)
+			return
+		..()
+		new /obj/decal/cleanable/blood(src.loc)
+		qdel(src)
 
 /obj/critter/blobman
 	name = "mutant"

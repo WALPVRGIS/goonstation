@@ -49,7 +49,7 @@
 	start_on_cooldown = 0
 	icon_state = "blood_boil"
 
-	//playsound(src, "sound/effects/screech_tone.ogg", 40, 1, 0.1, 0.8)
+	// "sound/effects/screech_tone.ogg", 40, 1, 0.1, 0.8
 
 	cast(atom/target)
 		if (..())

@@ -2015,7 +2015,7 @@
 "azO" = (
 /obj/machinery/light_switch/south,
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "azU" = (
 /obj/machinery/nanofab/nuclear,
 /obj/decal/tile_edge/stripe/extra_big{
@@ -6079,7 +6079,7 @@
 "bxU" = (
 /obj/machinery/light/incandescent,
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "bxV" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	dir = 4;
@@ -8744,7 +8744,7 @@
 /obj/machinery/light/incandescent,
 /obj/table/auto,
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "cdr" = (
 /turf/simulated/floor/carpet/purple/standard/edge{
 	dir = 9
@@ -13743,7 +13743,7 @@
 /obj/access_spawn,
 /obj/firedoor_spawn,
 /turf/simulated/floor/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "dgV" = (
 /obj/stool/chair/moveable{
 	dir = 1
@@ -14141,7 +14141,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/twotone,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "dlD" = (
 /obj/cable{
 	d1 = 1;
@@ -14384,7 +14384,7 @@
 "dot" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating/random,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "dox" = (
 /obj/machinery/light/incandescent{
 	dir = 4
@@ -16489,7 +16489,7 @@
 /obj/table/auto,
 /obj/machinery/light/incandescent,
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "dMi" = (
 /obj/decal/tile_edge/line/grey{
 	dir = 8;
@@ -16696,7 +16696,7 @@
 /area/station/hallway/primary/south)
 "dOu" = (
 /turf/space,
-/area/shuttle/merchant_shuttle/right_station/cogmap2)
+/area/shuttle/merchant_shuttle/left_station/cogmap2)
 "dOA" = (
 /obj/machinery/light/incandescent,
 /obj/disposalpipe/segment/brig{
@@ -18406,7 +18406,7 @@
 	name = "Quartermaster"
 	},
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "ehH" = (
 /obj/cable{
 	d1 = 1;
@@ -19455,7 +19455,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "euc" = (
 /obj/shrub{
 	dir = 10
@@ -19613,7 +19613,7 @@
 "evE" = (
 /obj/machinery/light/incandescent,
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "evL" = (
 /obj/machinery/light/incandescent,
 /obj/decal/tile_edge/stripe/extra_big{
@@ -33097,15 +33097,6 @@
 "hAv" = (
 /turf/simulated/floor/carpet/grime,
 /area/station/crew_quarters/baroffice)
-"hAw" = (
-/obj/stool/chair/office/green,
-/obj/landmark/start{
-	name = "Geneticist"
-	},
-/turf/simulated/floor/bluegreen,
-/area/station/medical/research{
-	name = "Genetic Research"
-	})
 "hAB" = (
 /obj/decal/tile_edge/line/black{
 	dir = 1;
@@ -33834,7 +33825,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "hIR" = (
 /obj/disposalpipe/segment/mail/horizontal,
 /turf/simulated/floor,
@@ -35196,7 +35187,7 @@
 	},
 /obj/access_spawn/cargo,
 /turf/simulated/floor/twotone,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "ibN" = (
 /obj/machinery/light/incandescent,
 /obj/machinery/drone_recharger,
@@ -37013,7 +37004,7 @@
 /area/station/crew_quarters/sauna)
 "iwr" = (
 /turf/simulated/floor/twotone,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "iwz" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/medical/medbay/surgery)
@@ -37689,7 +37680,7 @@
 "iEI" = (
 /obj/table/auto,
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "iEM" = (
 /obj/disposalpipe/segment/brig,
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -38306,7 +38297,7 @@
 "iLD" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "iLF" = (
 /obj/machinery/light/incandescent,
 /obj/disposalpipe/segment/mail/horizontal,
@@ -38390,7 +38381,7 @@
 "iMd" = (
 /obj/table/auto,
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "iMe" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -39563,7 +39554,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "jbc" = (
 /obj/machinery/door/airlock/pyro/alt,
 /obj/access_spawn/janitor,
@@ -40290,7 +40281,7 @@
 	pixel_y = 15
 	},
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "jjF" = (
 /turf/simulated/floor/carpet/red/fancy/innercorner/omni,
 /area/station/crew_quarters/courtroom)
@@ -40883,7 +40874,7 @@
 /obj/access_spawn,
 /obj/firedoor_spawn,
 /turf/simulated/floor/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "jrB" = (
 /obj/machinery/light/emergency,
 /turf/simulated/floor/white/checker,
@@ -41439,7 +41430,7 @@
 "jxQ" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating/random,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "jyb" = (
 /obj/pool/perspective{
 	dir = 5;
@@ -43152,7 +43143,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "jVx" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -45412,7 +45403,7 @@
 	},
 /obj/table/auto,
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "kvz" = (
 /obj/decal/tile_edge/line/grey{
 	dir = 10;
@@ -47311,7 +47302,7 @@
 /area/station/crew_quarters/observatory)
 "kSQ" = (
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "kSV" = (
 /obj/machinery/clonepod{
 	pixel_y = 8
@@ -48918,7 +48909,7 @@
 /obj/access_spawn/cargo,
 /obj/firedoor_spawn,
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "lkU" = (
 /obj/machinery/chem_dispenser{
 	pixel_y = 10
@@ -49074,7 +49065,7 @@
 	dir = 4;
 	pixel_x = 10
 	},
-/turf/simulated/floor/greenwhite{
+/turf/simulated/floor/greenwhite/corner{
 	dir = 1
 	},
 /area/station/medical/research{
@@ -54314,7 +54305,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/twotone,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "mtP" = (
 /obj/stool/bench/blue/auto,
 /obj/machinery/light/incandescent,
@@ -58668,7 +58659,7 @@
 /obj/access_spawn/cargo,
 /obj/firedoor_spawn,
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "nyk" = (
 /obj/wingrille_spawn/auto/crystal/reinforced,
 /obj/machinery/atmospherics/pipe/manifold{
@@ -59336,7 +59327,7 @@
 	pixel_y = 34
 	},
 /turf/simulated/floor/twotone,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "nGq" = (
 /obj/disposalpipe/segment{
 	dir = 2;
@@ -59558,7 +59549,7 @@
 /area/station/hallway/primary/west)
 "nKD" = (
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "nKJ" = (
 /obj/cable{
 	d1 = 1;
@@ -59868,7 +59859,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "nOt" = (
 /obj/decal/tile_edge/line/yellow{
 	dir = 4;
@@ -60631,7 +60622,7 @@
 /area/station/security/main)
 "nYj" = (
 /turf/simulated/wall/auto/reinforced/supernorn/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "nYk" = (
 /obj/cable{
 	icon_state = "1-8"
@@ -65104,7 +65095,7 @@
 /obj/machinery/light/small/floor/netural,
 /obj/table/auto,
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "oZK" = (
 /obj/decal/tile_edge/line/grey{
 	dir = 6;
@@ -67478,7 +67469,7 @@
 /area/station/bridge)
 "pFT" = (
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "pFY" = (
 /obj/cable{
 	d1 = 1;
@@ -72984,7 +72975,7 @@
 "qUH" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "qUI" = (
 /obj/cable/purple,
 /obj/machinery/power/tracker/east,
@@ -75986,7 +75977,7 @@
 	},
 /obj/table/auto,
 /turf/simulated/floor/twotone/yellow,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "rDi" = (
 /obj/cable{
 	icon_state = "1-8"
@@ -81245,7 +81236,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/twotone,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "sNB" = (
 /obj/cable{
 	d1 = 1;
@@ -82183,7 +82174,7 @@
 "sWZ" = (
 /obj/machinery/light/small/floor/netural,
 /turf/simulated/floor/twotone/purple,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "sXc" = (
 /turf/simulated/floor/stairs/dark{
 	dir = 6
@@ -84549,7 +84540,7 @@
 	pixel_x = 18
 	},
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "tvo" = (
 /obj/item/device/prisoner_scanner{
 	pixel_x = -2;
@@ -86254,7 +86245,7 @@
 "tRU" = (
 /obj/table/auto,
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "tRV" = (
 /obj/lattice{
 	icon_state = "lattice-dir-b";
@@ -89799,7 +89790,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "uFz" = (
 /obj/lattice{
 	icon_state = "lattice-dir-b";
@@ -92835,7 +92826,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/twotone,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "vpT" = (
 /obj/shrub,
 /obj/decal/tile_edge/line/green,
@@ -97337,7 +97328,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/twotone/blue,
-/area/station/crewquarters/garbagegarbs)
+/area/station/conveniencestore)
 "wtz" = (
 /obj/decal/tile_edge/line/green{
 	dir = 9;
@@ -142922,7 +142913,7 @@ nVp
 sFq
 xIu
 xIu
-hAw
+rEc
 lmD
 gxN
 mxD

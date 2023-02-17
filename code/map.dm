@@ -195,6 +195,46 @@ var/global/list/mapNames = list(
 		transit_area.warp_dir = escape_dir
 		return TRUE
 
+/datum/map_settings/decarabia
+	name = "DECARABIA"
+	airlock_style = "pyro"
+	walls = /turf/simulated/wall/auto/supernorn
+	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
+
+	escape_dir = NORTH
+
+	windows = /obj/window/auto
+	windows_thin = /obj/window/pyro
+	rwindows = /obj/window/auto/reinforced
+	rwindows_thin = /obj/window/reinforced/pyro
+	windows_crystal = /obj/window/auto/crystal
+	windows_rcrystal = /obj/window/auto/crystal/reinforced
+	window_layer_full = COG2_WINDOW_LAYER
+	window_layer_north = GRILLE_LAYER+0.1
+	window_layer_south = FLY_LAYER+1
+	auto_windows = TRUE
+
+	merchant_left_centcom = /area/shuttle/merchant_shuttle/left_centcom/cogmap2
+	merchant_left_station = /area/shuttle/merchant_shuttle/left_station/cogmap2
+	merchant_right_centcom = /area/shuttle/merchant_shuttle/right_centcom/cogmap
+	merchant_right_station = /area/shuttle/merchant_shuttle/right_station/cogmap
+
+	valid_nuke_targets = list("the cargo bay (QM)" = list(/area/station/quartermaster/office),
+		"the recreation center" = list(/area/station/reccenter),
+		"the public pool" = list(/area/station/crew_quarters/pool),
+		"the chapel" = list(/area/station/chapel/sanctuary),
+		"the bridge" = list(/area/station/bridge),
+		"the central bar" = list(/area/station/crew_quarters/cafeteria),
+		"the brig" = list(/area/station/security/brig),
+		"the aviary" = list(/area/station/garden/aviary),
+		"the court room" = list(/area/station/crew_quarters/courtroom),
+		"the stock exchange" = list(/area/station/crew_quarters/stockex),
+		"the main station pod bay" = list(/area/station/hangar/main))
+
+	job_limits_override = list(
+		/datum/job/civilian/rancher = 2,
+	)
+
 
 /datum/map_settings/donut2
 	name = "DONUT2"

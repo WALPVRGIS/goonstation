@@ -1832,6 +1832,10 @@ ABSTRACT_TYPE(/area/station/maintenance/inner)
 	name = "Escape Lounge"
 	icon_state = "pink"
 
+/area/station/conveniencestore
+	name = "Cargo Convenience Store"
+	icon_state = "pink"
+
 /area/station/crew_quarters/hos/hosprivate
 	name = "Head of Security's Private Quarters"
 	icon_state = "HOS"

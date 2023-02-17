@@ -1806,6 +1806,44 @@ ABSTRACT_TYPE(/area/station/maintenance/inner)
 /area/station/maintenance/inner/central
   name = "Central Inner Maintenance"
 
+// Decarabia specific areas //
+
+/area/station/reccenter
+	name = "Recreation Center"
+	icon_state = "rec_center"
+
+/area/station/mimehovel
+	name = "Mime Hovel"
+	icon_state = "mime_hovel"
+
+/area/station/clothingstore
+	name = "Clothing Store"
+	icon_state = "clothing_store"
+
+/area/station/laundry
+	name = "Laundry"
+	icon_state = "laundry"
+
+/area/station/summoningchamber
+	name = "Summoning Chamber"
+	icon_state = "summon_chamber"
+
+/area/station/escapelounge
+	name = "Escape Lounge"
+	icon_state = "pink"
+
+/area/station/crew_quarters/hos/hosprivate
+	name = "Head of Security's Private Quarters"
+	icon_state = "HOS"
+	sound_environment = 4
+
+/area/station/research/staff
+	name = "Research Staff Area"
+	icon_state = "purple"
+	sound_environment = 3
+
+// Decarabia end //
+
 // Donut 3 specific areas //
 
 // Civilian

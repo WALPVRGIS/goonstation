@@ -778,6 +778,10 @@ ADMIN_INTERACT_PROCS(/obj/window, proc/smash)
 		/turf/simulated/wall/auto/marsoutpost,
 		/turf/simulated/wall/false_wall,
 		/turf/simulated/wall/auto/feather,
+
+
+		/turf/simulated/wall/auto/walp,
+		/turf/simulated/wall/auto/reinforced/walp,
 	))
 
 	/// Gotta be a typecache list

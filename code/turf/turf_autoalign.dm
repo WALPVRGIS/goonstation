@@ -351,13 +351,40 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/walp)
 	light_mod = "wall-"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
 
+	the_tuff_stuff
+		explosion_resistance = 7
+
 	update_neighbors()
 		..()
 		for (var/obj/window/auto/O in orange(1,src))
 			O.UpdateIcon()
 
-	the_tuff_stuff
-		explosion_resistance = 7
+	black
+	icon = 'icons/turf/decarabiaturfs/walls_walp_black.dmi'
+
+	blue
+	icon = 'icons/turf/decarabiaturfs/walls_walp_blue.dmi'
+
+	darkblue
+	icon = 'icons/turf/decarabiaturfs/walls_walp_dblue.dmi'
+
+	darkpurple
+	icon = 'icons/turf/decarabiaturfs/walls_walp_dpurple.dmi'
+
+	green
+	icon = 'icons/turf/decarabiaturfs/walls_walp_green.dmi'
+
+	pink
+	icon = 'icons/turf/decarabiaturfs/walls_walp_pink.dmi'
+
+	purple
+	icon = 'icons/turf/decarabiaturfs/walls_walp_purple.dmi'
+
+	red
+	icon = 'icons/turf/decarabiaturfs/walls_walp_red.dmi'
+
+	yellow
+	icon = 'icons/turf/decarabiaturfs/walls_walp_yellow.dmi'
 
 
 TYPEINFO(/turf/simulated/wall/auto/reinforced/walp)
@@ -392,6 +419,33 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/reinforced/walp)
 		..()
 		for (var/obj/window/auto/O in orange(1,src))
 			O.UpdateIcon()
+
+	black
+	icon = 'icons/turf/decarabiaturfs/walls_walp_black.dmi'
+
+	blue
+	icon = 'icons/turf/decarabiaturfs/walls_walp_blue.dmi'
+
+	darkblue
+	icon = 'icons/turf/decarabiaturfs/walls_walp_dblue.dmi'
+
+	darkpurple
+	icon = 'icons/turf/decarabiaturfs/walls_walp_dpurple.dmi'
+
+	green
+	icon = 'icons/turf/decarabiaturfs/walls_walp_green.dmi'
+
+	pink
+	icon = 'icons/turf/decarabiaturfs/walls_walp_pink.dmi'
+
+	purple
+	icon = 'icons/turf/decarabiaturfs/walls_walp_purple.dmi'
+
+	red
+	icon = 'icons/turf/decarabiaturfs/walls_walp_red.dmi'
+
+	yellow
+	icon = 'icons/turf/decarabiaturfs/walls_walp_yellow.dmi'
 
 TYPEINFO(/turf/simulated/wall/auto/supernorn)
 	connect_overlay = 1

@@ -349,6 +349,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/walp)
 	icon = 'icons/turf/decarabiaturfs/walls_walp_base.dmi'
 	mod = "walp-"
 	light_mod = "wall-"
+	icon_state = "mapwall"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
 
 	the_tuff_stuff
@@ -360,31 +361,31 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/walp)
 			O.UpdateIcon()
 
 	black
-	icon = 'icons/turf/decarabiaturfs/walls_walp_black.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_black.dmi'
 
 	blue
-	icon = 'icons/turf/decarabiaturfs/walls_walp_blue.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_blue.dmi'
 
 	darkblue
-	icon = 'icons/turf/decarabiaturfs/walls_walp_dblue.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_dblue.dmi'
 
 	darkpurple
-	icon = 'icons/turf/decarabiaturfs/walls_walp_dpurple.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_dpurple.dmi'
 
 	green
-	icon = 'icons/turf/decarabiaturfs/walls_walp_green.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_green.dmi'
 
 	pink
-	icon = 'icons/turf/decarabiaturfs/walls_walp_pink.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_pink.dmi'
 
 	purple
-	icon = 'icons/turf/decarabiaturfs/walls_walp_purple.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_purple.dmi'
 
 	red
-	icon = 'icons/turf/decarabiaturfs/walls_walp_red.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_red.dmi'
 
 	yellow
-	icon = 'icons/turf/decarabiaturfs/walls_walp_yellow.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_yellow.dmi'
 
 
 TYPEINFO(/turf/simulated/wall/auto/reinforced/walp)
@@ -410,6 +411,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/reinforced/walp)
 	icon = 'icons/turf/decarabiaturfs/walls_walp_base.dmi'
 	mod = "walp-R-"
 	light_mod = "wall-"
+	icon_state = "mapwall_r"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
 
 	the_tuff_stuff
@@ -421,31 +423,31 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/reinforced/walp)
 			O.UpdateIcon()
 
 	black
-	icon = 'icons/turf/decarabiaturfs/walls_walp_black.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_black.dmi'
 
 	blue
-	icon = 'icons/turf/decarabiaturfs/walls_walp_blue.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_blue.dmi'
 
 	darkblue
-	icon = 'icons/turf/decarabiaturfs/walls_walp_dblue.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_dblue.dmi'
 
 	darkpurple
-	icon = 'icons/turf/decarabiaturfs/walls_walp_dpurple.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_dpurple.dmi'
 
 	green
-	icon = 'icons/turf/decarabiaturfs/walls_walp_green.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_green.dmi'
 
 	pink
-	icon = 'icons/turf/decarabiaturfs/walls_walp_pink.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_pink.dmi'
 
 	purple
-	icon = 'icons/turf/decarabiaturfs/walls_walp_purple.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_purple.dmi'
 
 	red
-	icon = 'icons/turf/decarabiaturfs/walls_walp_red.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_red.dmi'
 
 	yellow
-	icon = 'icons/turf/decarabiaturfs/walls_walp_yellow.dmi'
+		icon = 'icons/turf/decarabiaturfs/walls_walp_yellow.dmi'
 
 TYPEINFO(/turf/simulated/wall/auto/supernorn)
 	connect_overlay = 1

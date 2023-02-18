@@ -1416,6 +1416,25 @@ DEFINE_FLOORS(techfloor/green,
 	RL_LumG = 0.3;\
 	RL_LumB = 0)
 
+DEFINE_FLOORS(digifloor,
+	name = "tear in the very fabric of the simulation";\
+	desc = "Uh. Uh oh.";\
+	icon = 'icons/turf/floors.dmi';\
+	icon_state = "digital_purple";\
+	mat_changename = 0;\
+	mat_changedesc = 0;\
+	step_material = "step_plating";\
+	step_priority = STEP_PRIORITY_MED;\
+	RL_LumR = 0.4;\
+	RL_LumG = 0;\
+	RL_LumB = 0.8)
+
+DEFINE_FLOORS(digifloor/blue,
+	icon_state = "digital_blue";\
+	RL_LumR = 0;\
+	RL_LumG = 0;\
+	RL_LumB = 1.2)
+
 /////////////////////////////////////////
 
 /turf/simulated/floor/grass

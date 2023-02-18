@@ -199,8 +199,8 @@ var/global/list/mapNames = list(
 /datum/map_settings/decarabia
 	name = "DECARABIA"
 	airlock_style = "pyro"
-	walls = /turf/simulated/wall/auto/supernorn
-	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
+	walls = /turf/simulated/wall/auto/walp
+	rwalls = /turf/simulated/wall/auto/reinforced/walp
 
 	escape_dir = NORTH
 

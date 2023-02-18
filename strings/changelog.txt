@@ -1,5 +1,20 @@
 
+(t)sat feb 18 23
+(u)Wisemonster
+(p)13071
+(e)💅⏰|C-QoL, A-Status-Effects
+(+)Being actively de-revved by a loyalty implant will now display a status effect.
+(u)Cherman0
+(p)12620
+(e)🗺💅|A-Mapping, C-QoL
+(+)Added a second bathroom to Donut3, by the bar.
+(u)Shiiba
+(p)12821
+(e)🎨|C-Sprites
+(*)Adds the paper folding option for cigarette packets, make your own customs joints and cigs today!
 (t)fri feb 17 23
+(u)aloe
+(+)The clown car can now fit people who are stunned but not lying down, and can fit non-human creatures (including borgs).
 (u)Kubius
 (p)12687
 (e)🆕⚖🔄📦🌠|C-Feature, C-Balance, C-Rework, A-Game-Objects, A-Events

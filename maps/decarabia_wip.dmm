@@ -986,7 +986,9 @@
 /turf/simulated/floor/industrial,
 /area/station/quartermaster/refinery)
 "aly" = (
-/obj/machinery/atmospherics/pipe/manifold/overfloor/west,
+/obj/machinery/atmospherics/pipe/manifold/overfloor{
+	dir = 8
+	},
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
@@ -1389,7 +1391,9 @@
 /turf/simulated/floor/industrial,
 /area/station/maintenance/outer/north)
 "aqW" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/horizontal,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 4
+	},
 /obj/machinery/firealarm{
 	pixel_y = 25
 	},
@@ -3661,7 +3665,9 @@
 /area/station/hallway/secondary/exit)
 "aTT" = (
 /obj/decal/tile_edge/stripe/extra_big,
-/obj/machinery/atmospherics/pipe/manifold/overfloor/north,
+/obj/machinery/atmospherics/pipe/manifold/overfloor{
+	dir = 1
+	},
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
@@ -4151,7 +4157,7 @@
 /turf/simulated/floor/carpet/arcade/half,
 /area/station/medical/breakroom)
 "bbA" = (
-/obj/machinery/atmospherics/pipe/manifold/overfloor/south,
+/obj/machinery/atmospherics/pipe/manifold/overfloor,
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating/random,
 /area/station/medical/medbay)
@@ -15982,7 +15988,9 @@
 /turf/simulated/floor/black/grime,
 /area/station/engine/gas)
 "dDC" = (
-/obj/machinery/atmospherics/pipe/manifold/overfloor/west,
+/obj/machinery/atmospherics/pipe/manifold/overfloor{
+	dir = 8
+	},
 /obj/machinery/meter,
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
@@ -17854,7 +17862,9 @@
 	},
 /area/station/hallway/primary/southeast)
 "dXL" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging/northwest,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 9
+	},
 /turf/space,
 /area/space)
 "dXM" = (
@@ -22468,7 +22478,9 @@
 /turf/simulated/floor/carpet/green/fancy/narrow/T_west,
 /area/station/maintenance/outer/sw)
 "eYS" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/northwest,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 9
+	},
 /turf/space,
 /area/space)
 "eYW" = (
@@ -22625,7 +22637,9 @@
 /area/station/maintenance/outer/north)
 "faP" = (
 /obj/wingrille_spawn/auto/crystal/reinforced,
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/northeast,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 5
+	},
 /turf/simulated/floor/plating/random,
 /area/station/engine/inner)
 "faQ" = (
@@ -23166,7 +23180,9 @@
 /turf/simulated/floor/carpet/grime,
 /area/station/research/staff)
 "fgW" = (
-/obj/machinery/atmospherics/valve/horizontal,
+/obj/machinery/atmospherics/valve{
+	dir = 4
+	},
 /turf/simulated/floor/plating/random,
 /area/station/atmos/hookups/central)
 "fha" = (
@@ -26018,7 +26034,9 @@
 /obj/decal/poster/wallsign/warning3{
 	pixel_x = 32
 	},
-/obj/machinery/atmospherics/pipe/manifold/overfloor/east,
+/obj/machinery/atmospherics/pipe/manifold/overfloor{
+	dir = 4
+	},
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
@@ -29540,7 +29558,9 @@
 /turf/simulated/floor/plating,
 /area/station/hallway/primary/west)
 "gFI" = (
-/obj/machinery/atmospherics/pipe/manifold/overfloor/north,
+/obj/machinery/atmospherics/pipe/manifold/overfloor{
+	dir = 1
+	},
 /obj/machinery/light/incandescent,
 /turf/simulated/floor/blue,
 /area/station/medical/medbay)
@@ -30428,7 +30448,9 @@
 	},
 /area/station/crew_quarters/kitchen)
 "gOA" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/horizontal,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 4
+	},
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
 "gOF" = (
@@ -33231,7 +33253,9 @@
 	name = "Supply Lobby"
 	})
 "huW" = (
-/obj/machinery/atmospherics/pipe/simple/overfloor/northwest,
+/obj/machinery/atmospherics/pipe/simple/overfloor{
+	dir = 9
+	},
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
 "hvg" = (
@@ -35824,7 +35848,9 @@
 /turf/simulated/floor/sanitary/white,
 /area/station/crew_quarters/heads)
 "ibp" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/horizontal,
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 4
+	},
 /obj/machinery/meter,
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
@@ -40561,7 +40587,7 @@
 	},
 /area/station/crew_quarters/kitchen)
 "jet" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/vertical,
+/obj/machinery/atmospherics/pipe/simple/insulated,
 /obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating/random,
 /area/station/engine/inner)
@@ -45750,7 +45776,7 @@
 /turf/simulated/floor/grass/random,
 /area/station/hallway/secondary/west)
 "kqx" = (
-/obj/machinery/atmospherics/pipe/simple/junction/east{
+/obj/machinery/atmospherics/pipe/simple/junction{
 	dir = 2
 	},
 /obj/machinery/firealarm{
@@ -55659,7 +55685,9 @@
 /turf/simulated/floor/minitiles/white,
 /area/station/crew_quarters/pool)
 "mxa" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/southwest,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 10
+	},
 /turf/space,
 /area/space)
 "mxb" = (
@@ -60897,7 +60925,7 @@
 /turf/simulated/floor/sanitary,
 /area/station/medical/crematorium)
 "nNV" = (
-/obj/machinery/atmospherics/pipe/manifold/overfloor/south,
+/obj/machinery/atmospherics/pipe/manifold/overfloor,
 /obj/cable{
 	d1 = 1;
 	d2 = 2;
@@ -61715,7 +61743,7 @@
 	},
 /area/station/crew_quarters/barber_shop)
 "nXU" = (
-/obj/machinery/atmospherics/pipe/manifold/overfloor/south,
+/obj/machinery/atmospherics/pipe/manifold/overfloor,
 /obj/machinery/meter,
 /obj/cable/blue{
 	icon_state = "1-2"
@@ -65769,7 +65797,9 @@
 	},
 /area/station/crew_quarters/cafeteria)
 "oTn" = (
-/obj/machinery/atmospherics/pipe/simple/junction/east,
+/obj/machinery/atmospherics/pipe/simple/junction{
+	dir = 4
+	},
 /obj/machinery/camera{
 	c_tag = "autotag";
 	dir = 5;
@@ -68314,7 +68344,9 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/manifold/overfloor/west,
+/obj/machinery/atmospherics/pipe/manifold/overfloor{
+	dir = 8
+	},
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
@@ -68329,7 +68361,7 @@
 /area/listeningpost)
 "pAr" = (
 /obj/wingrille_spawn/auto/crystal/reinforced,
-/obj/machinery/atmospherics/pipe/simple/insulated/vertical,
+/obj/machinery/atmospherics/pipe/simple/insulated,
 /turf/simulated/floor/plating/random,
 /area/station/engine/inner)
 "pAE" = (
@@ -68784,7 +68816,9 @@
 /turf/simulated/floor/glassblock/transparent/red,
 /area/listeningpost)
 "pGl" = (
-/obj/machinery/atmospherics/unary/cold_sink/freezer/west,
+/obj/machinery/atmospherics/unary/cold_sink/freezer{
+	dir = 8
+	},
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
 "pGo" = (
@@ -76727,7 +76761,7 @@
 /turf/simulated/floor/carpet/blue/fancy/narrow/T_south,
 /area/station/bridge/captain)
 "rwi" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging/vertical,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
 /turf/space,
 /area/space)
 "rwm" = (
@@ -82172,7 +82206,7 @@
 /turf/simulated/floor/twotone/blue,
 /area/station/medical/medbay)
 "sGW" = (
-/obj/machinery/atmospherics/pipe/simple/overfloor/vertical,
+/obj/machinery/atmospherics/pipe/simple/overfloor,
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
 "sHh" = (
@@ -83837,7 +83871,9 @@
 /turf/simulated/floor/industrial,
 /area/station/quartermaster/refinery)
 "sZg" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/horizontal,
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 4
+	},
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
 "sZj" = (
@@ -84850,7 +84886,9 @@
 /turf/simulated/floor/black/grime,
 /area/station/storage/tech)
 "tjp" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/southeast,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 6
+	},
 /turf/space,
 /area/space)
 "tjR" = (
@@ -84877,7 +84915,7 @@
 	},
 /area/station/maintenance/outer/south)
 "tkg" = (
-/obj/machinery/atmospherics/unary/cold_sink/freezer/cryo/south,
+/obj/machinery/atmospherics/unary/cold_sink/freezer/cryo,
 /obj/decal/tile_edge/stripe/extra_big,
 /obj/decal/poster/wallsign/poster_nt{
 	pixel_y = 28
@@ -84894,7 +84932,9 @@
 /area/station/reccenter)
 "tku" = (
 /obj/machinery/light/incandescent,
-/obj/machinery/atmospherics/pipe/simple/insulated/southwest,
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 10
+	},
 /turf/simulated/floor/black/grime,
 /area/station/engine/inner)
 "tkv" = (
@@ -88792,7 +88832,9 @@
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/outer/west)
 "ucX" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/northwest,
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 9
+	},
 /turf/simulated/floor/plating/airless,
 /area/station/engine/inner)
 "ude" = (
@@ -89382,7 +89424,9 @@
 /area/station/maintenance/inner/sw)
 "uic" = (
 /obj/machinery/light/incandescent,
-/obj/machinery/atmospherics/unary/cold_sink/freezer/north,
+/obj/machinery/atmospherics/unary/cold_sink/freezer{
+	dir = 1
+	},
 /obj/decal/tile_edge/line/white{
 	dir = 1;
 	icon_state = "line1"
@@ -94179,7 +94223,7 @@
 /turf/simulated/floor,
 /area/station/hallway/primary/north)
 "vmU" = (
-/obj/machinery/atmospherics/pipe/simple/junction/south,
+/obj/machinery/atmospherics/pipe/simple/junction,
 /turf/space,
 /area/space)
 "vmW" = (
@@ -94864,7 +94908,9 @@
 /turf/simulated/floor/minitiles/black,
 /area/station/bridge)
 "vum" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/horizontal,
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 4
+	},
 /turf/simulated/floor/plating/airless,
 /area/station/engine/inner)
 "vun" = (
@@ -105495,7 +105541,9 @@
 /turf/simulated/floor/plating,
 /area/station/reccenter)
 "xRU" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging/northeast,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 5
+	},
 /turf/space,
 /area/space)
 "xRX" = (

@@ -3370,6 +3370,8 @@ ABSTRACT_TYPE(/area/station/hangar)
 /area/station/hangar/security
 		name = "Submarine Bay (Security)"
 		station_map_colour = MAPC_SECURITY
+/area/station/hangar/north
+		name = "North Pod Bay"
 
 /area/station/hydroponics
 	name = "Hydroponics"

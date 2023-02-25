@@ -15143,7 +15143,9 @@
 /turf/simulated/floor/black/grime,
 /area/station/maintenance/outer/east)
 "dqw" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/northeast,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 5
+	},
 /turf/simulated/floor/twotone/blue{
 	dir = 1
 	},
@@ -23922,7 +23924,9 @@
 /turf/simulated/wall/auto/walp,
 /area/station/crew_quarters/quarters_south)
 "fkd" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/southeast,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 6
+	},
 /turf/simulated/floor/twotone/blue{
 	dir = 1
 	},
@@ -26208,7 +26212,9 @@
 /turf/simulated/floor/yellow,
 /area/station/mining/staff_room)
 "fJr" = (
-/obj/machinery/atmospherics/portables_connector/west,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
 /turf/simulated/floor/plating/random,
 /area/station/atmos/hookups/central)
 "fJs" = (
@@ -49603,7 +49609,9 @@
 /turf/simulated/floor/yellow,
 /area/station/quartermaster/refinery)
 "kYK" = (
-/obj/machinery/atmospherics/portables_connector/east,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
 /turf/simulated/floor/plating/random,
 /area/station/atmos/hookups/central)
 "kYM" = (
@@ -99208,7 +99216,9 @@
 /turf/simulated/floor/carpet/grime,
 /area/station/quartermaster/office)
 "vYJ" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/northwest,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 9
+	},
 /turf/simulated/floor/twotone/blue,
 /area/station/medical/medbay)
 "vYN" = (
@@ -102672,7 +102682,9 @@
 /turf/simulated/floor/neutral/side,
 /area/station/hallway/primary/northwest)
 "wIi" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold/southwest,
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 10
+	},
 /turf/simulated/floor/twotone/blue,
 /area/station/medical/medbay)
 "wIp" = (

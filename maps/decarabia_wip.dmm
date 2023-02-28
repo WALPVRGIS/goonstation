@@ -3440,9 +3440,7 @@
 /turf/simulated/floor/specialroom/arcade,
 /area/station/science/lobby)
 "aQU" = (
-/obj/storage/cart{
-	name = "ore cart"
-	},
+/obj/machinery/nanofab/mining,
 /turf/simulated/floor/black/grime,
 /area/station/quartermaster/magnet)
 "aRb" = (
@@ -7344,6 +7342,7 @@
 /area/station/hallway/primary/west)
 "bIB" = (
 /obj/storage/secure/closet/command/chief_engineer,
+/obj/machinery/light/incandescent,
 /turf/simulated/floor/carpet{
 	dir = 10;
 	icon_state = "fgreen2"
@@ -21392,12 +21391,11 @@
 /turf/simulated/floor/industrial,
 /area/station/maintenance/outer/north)
 "eIE" = (
-/obj/machinery/portable_reclaimer,
-/obj/decal/mule/beacon/no_auto_dropoff_spawn,
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 1
 	},
 /obj/machinery/light/incandescent,
+/obj/machinery/nanofab/mining,
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
@@ -48239,6 +48237,8 @@
 /obj/machinery/light_switch/east{
 	dir = 4
 	},
+/obj/decal/mule/beacon/no_auto_dropoff_spawn,
+/obj/machinery/portable_reclaimer,
 /turf/simulated/floor/black/grime,
 /area/station/mining/refinery)
 "kHZ" = (
@@ -52366,6 +52366,7 @@
 	},
 /obj/disposalpipe/segment/mail/vertical,
 /obj/firedoor_spawn,
+/obj/access_spawn/heads,
 /turf/simulated/floor/minitiles/black,
 /area/station/teleporter)
 "lzD" = (
@@ -53482,6 +53483,7 @@
 	icon_state = "1-2"
 	},
 /obj/firedoor_spawn,
+/obj/access_spawn/heads,
 /turf/simulated/floor/minitiles/black,
 /area/station/teleporter)
 "lNf" = (
@@ -60947,7 +60949,6 @@
 /turf/simulated/floor/black/grime,
 /area/station/medical/robotics)
 "nxr" = (
-/obj/machinery/light/incandescent,
 /obj/cable{
 	icon_state = "4-8"
 	},
